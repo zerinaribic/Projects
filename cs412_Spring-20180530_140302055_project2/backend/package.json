@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "My first nodejs app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rimzoni/cs412_Spring.git"
+  },
+  "keywords": [
+    "cs412"
+  ],
+  "author": "ius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rimzoni/cs412_Spring/issues"
+  },
+  "homepage": "https://github.com/rimzoni/cs412_Spring#readme",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.2",
+    "bookshelf": "^0.12.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "knex": "^0.13.0",
+    "node-uuid": "^1.4.8",
+    "pg": "^7.4.1",
+    "stripe": "^6.0.0"
+  }
+}
